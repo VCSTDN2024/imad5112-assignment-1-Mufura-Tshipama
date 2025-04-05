@@ -10,7 +10,7 @@
 Start with a header section that includes the following basic details:
 
 ```markdown
-# [App Title]
+# [Meal App]
 - **Developer**: [Mufura Tshipama]
 - **Student Number**: [ST10496960]
 - **Group**: [2]
@@ -74,15 +74,15 @@ Why:
 ```markdown
 ## Design Considerations
 
-The design of the **[App Title]** was based on the following key considerations:
+The design of the **[Meal app ]** was based on the following key considerations:
 
-1. **User Experience (UX)**: The app was designed with the goal of providing an intuitive and easy-to-navigate user interface, ensuring a seamless user experience.
+1. **User Experience (UX)**: the app was crafted to provide an and easy navigation interface, ensuring users can quickly input the time of day and receive meal suggestions effortlessly.
    
-2. **Responsiveness**: The app was built to ensure it performs well on different screen sizes, with particular attention to device compatibility.
+2. **Responsiveness**:Meal suggestions are given to you based on the time of day, offering users appropriate meal options such as breakfast, lunch, dinner, or snacks.
    
-3. **Simplicity**: The design is minimalistic, focusing on core features without overwhelming the user.
+3. **Simplicity**:  The design of the app is easy to fuction , focusing solely on the core feature of meal suggestion, avoiding unnecessary clutter.
    
-4. **Performance**: Code optimization was considered to ensure fast response times and low battery usage.
+4. **Performance**: The app is fast to respond it has given minimal impact on device resources like battery and memory
 ```
 
 Why:
@@ -121,11 +121,13 @@ Why:
 ## Screenshots
 
 ### App Screenshots:
-![Screenshot 1](path_to_screenshot_1.png)
-*Caption for screenshot 1: [Describe the context, e.g., "The home screen of the app showing the task list."]*
+![![Screenshot_2025 04 05_20 04 55 909](https://github.com/user-attachments/assets/b0376704-5cd8-4585-aab1-552c62707b7c)
+](path_to_screenshot_1.png)
+*Caption for screenshot 1: [This is the home screen of the app it has two buttons and a plain text and one text view ]*
 
-![Screenshot 2](path_to_screenshot_2.png)
-*Caption for screenshot 2: [Describe the context, e.g., "The user profile screen where personal information is updated."]*
+![![Screenshot_2025 04 05_20 04 55 90909](https://github.com/user-attachments/assets/b2ca9248-46aa-48a5-8a67-2fd21912d061)
+](path_to_screenshot_2.png)
+*Caption for screenshot 2: [This is what happenes when the user inputs the time of the day the app will suggest a meal depending on the time of the day that you input ]*
 
 ### Video Demo:
 A video showcasing the app's functionality can be viewed here: [YouTube Video Link].
@@ -145,13 +147,13 @@ Why:
 
 During the development of this project, I encountered several challenges, including:
 
-1. **Challenge 1**: [Briefly describe a challenge you faced, e.g., "Implementing a complex feature like the login system."]
-   - **Solution**: [How you solved the challenge, e.g., "I researched Firebase authentication and successfully integrated it into the app."]
+1. **Challenge 1**: [Briefly describe a challenge you faced, e.g.,The first time i tried to run my app it didnt not work because i did not add the ids for the button and the plain text ]
+   - **Solution**: [How you solved the challenge, e.g., "I went back to my mainactivity to add the ids for the button and the plain text"]
    
-2. **Challenge 2**: [Describe another challenge, e.g., "Debugging issues related to Gradle builds."]
-   - **Solution**: [How you solved the challenge.]
+2. **Challenge 2**: [Describe another challenge, e.g., "I wanted to add a second screen to my app when you click the suugestion button it will bring you to another screen but it didnt work i had to restart my app 3 times because of that when i tried to run my app it was not lanching "]
+   - **Solution**: [to solve the problem i just deleted the second screen and start all over with my app.]
 
-From these challenges, I learned important lessons in debugging, using version control, and automating build processes with GitHub Actions.
+From these challenges, I learned important lessons that i always have to make sure that everything in my mainactivity has no error and i learnt how to code and improve my code as times goes on 
 ```
 
 Why:
@@ -168,9 +170,9 @@ Why:
 
 While the current version of the app provides the core functionality, there are several features that could be added in the future, including:
 
-1. **Feature 1**: [Description, e.g., "Allowing users to set up reminders or notifications."]
-2. **Feature 2**: [Description, e.g., "Integrating with a cloud database for storing user data."]
-3. **Feature 3**: [Description, e.g., "Adding a dark mode option for better user experience."]
+1. **Feature 1**: ["Allowing users to input the exact time and not only the time of the day so it can give you a quick meal e.g.,"when it is morning and you dont input morning but the time the app will know that it is morning"]
+2. **Feature 2**: [Integrating with a cloud database for storing user data, e.g., "the app willl be able to save your histro to know the most suggested time of day that the user inputs "]
+3. **Feature 3**: [Adding a reminder that will remind them that they have not yet asked for a meal because if the user has not opened the app for an hour, e.g., "when you dont open the app in the morning for an hour after you wake up the app will assume that you have not yet eaten and it will send a reminder to not forget to have your breakfast "]
 
 These enhancements would improve the app’s usability and make it even more versatile for end-users.
 ```
@@ -187,7 +189,8 @@ Why:
 ```markdown
 ## References
 
-1. [Reference 1: E.g., any books, articles, or online resources you used during development.]
+1. [Reference 1: E.g., *Android Developers World,Android Beginner- How to clear Edittext Data on Button click? #learn_tutorial3,https://youtu.be/IzN5Rkq25yw?si=QKPzmx5ktuKATAld, [AccessedJune 13, 2020].
+
 2. [Reference 2: Any relevant papers, documentation, or tutorials.]
 ```
 
@@ -203,8 +206,10 @@ Why:
 ```markdown
 ## List of Figures
 
-- **Figure 1**: Screenshot of the app's home screen.
-- **Figure 2**: Screenshot of the user profile screen.
+- **Figure 1**: ![Screenshot_2025 04 05_20 04 55 909](https://github.com/user-attachments/assets/28a570f9-a691-4135-a4fa-0522cf9a459b)
+
+- **Figure 2**: ![Screenshot_2025 04 05_20 04 55 90909](https://github.com/user-attachments/assets/012304ae-0ab5-46ae-9c66-01e2580221a7)
+
 ```
 
 Why:
